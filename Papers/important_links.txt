@@ -1,1 +1,22 @@
+
 https://hackernoon.com/using-ai-to-super-compress-images-5a948cf09489
+
+
+https://buzzrobot.com/hiding-images-using-ai-deep-steganography-b7726bd58b06
+
+
+
+Links for better understanding:
+
+
+https://www.slideshare.net/jamesridgway/video-steganography
+
+https://www.slideshare.net/ShajanaKBasheer/video-steganography-46652967?next_slideshow=1
+
+http://www.cs.cornell.edu/topiwala/wavelets/report.html#steganography  
+
+(for complete understanding use the above one)
+
+https://steganosaur.us/
+
+(this one too is good, proper pkg has a video on video steganography)
