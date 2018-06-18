@@ -13,9 +13,9 @@ def convert_img_to_dct(img):
 	return array_to_nn
 
 def convert_dct_to_img(dct):
-	b=cv2.dct(array_to_nn[:,:,0],flags=cv2.DCT_INVERSE)
-	g=cv2.dct(array_to_nn[:,:,1],flags=cv2.DCT_INVERSE)
-	r=cv2.dct(array_to_nn[:,:,2],flags=cv2.DCT_INVERSE)
+	b=cv2.dct(dct[:,:,0],flags=cv2.DCT_INVERSE)
+	g=cv2.dct(dct[:,:,1],flags=cv2.DCT_INVERSE)
+	r=cv2.dct(dct[:,:,2],flags=cv2.DCT_INVERSE)
 	img=cv2.merge([b,g,r])
 	return img
 
